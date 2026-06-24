@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ココナラ出品者チェッカー">
+  <rect width="64" height="64" rx="12" fill="#0f1117"/>
+  <path d="M18 16h28a4 4 0 0 1 4 4v24a4 4 0 0 1-4 4H18a4 4 0 0 1-4-4V20a4 4 0 0 1 4-4Z" fill="#1a1c24" stroke="#2d7dd2" stroke-width="3"/>
+  <path d="M24 33l6 6 12-15" fill="none" stroke="#17b890" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="32" y="58" fill="#e8e6e1" font-family="Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle">CC</text>
+</svg>
