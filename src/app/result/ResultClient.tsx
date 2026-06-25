@@ -105,10 +105,10 @@ export default function ResultClient({ input, result }: Props) {
             <h2 className="text-sm font-semibold text-white">購入前アドバイス</h2>
             <p className="mt-4 text-sm leading-7 text-zinc-300">{result.advice}</p>
             <div className="mt-5 flex flex-wrap gap-2">
-              <ShareButton href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`ココナラ出品者チェッカーで信頼度 ${result.totalScore}/100 判定${result.grade} でした`)}`}>
+              <ShareButton href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(`ココナラ出品者チェッカーで信頼度 ${result.totalScore}/100 判定${result.grade} でした`)}&url=${encodeURIComponent("https://coconala-checker.vercel.app")}`}>
                 Xで共有
               </ShareButton>
-              <ShareButton href={`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent("https://example.com")}`}>
+              <ShareButton href={`https://social-plugins.line.me/lineit/share?url=${encodeURIComponent("https://coconala-checker.vercel.app")}`}>
                 LINEで共有
               </ShareButton>
             </div>
